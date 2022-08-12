@@ -1,0 +1,291 @@
+
+/*global */
+#gen-container{
+    
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    background:whitesmoke;
+    overflow: hidden;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lists ul .current{
+    font-weight: bold;
+    color: darkblue;
+    font-size: larger;
+}
+
+a:link {
+    color:rgb(243, 243, 245);
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color:blue;
+}
+span{
+    background-color: azure;
+}
+
+/*header i.e .hcontainer */
+.hcontainer{
+    width:100%;
+    background: lightsteelblue;
+    min-height: 70px;
+    padding: 10px;
+    border-bottom: darkcyan 5px solid;
+}
+.hcontainer h1 {
+    font-style: normal;
+    color: mediumblue;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+.hcontainer ul{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    float:right;
+    gap: 15px;
+    align-items: baseline;
+}
+
+.hcontainer ul{
+    margin: 0;
+    padding: 0;
+ }
+ .hcontainer ul li{
+     list-style: none;
+     margin: 0;
+     text-transform: uppercase;
+     font-size: 16px;
+     padding: 0 20px 0 20px;
+     display: inline;
+     float: left;
+ }
+ .hcontainer #name{
+     float: left;
+     margin: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: darkblue;
+ }    
+
+ .hcontainer #lists{
+     float:right;
+     margin-top: 17px;
+ } 
+
+
+.section{
+    background-image: url(../image/background.jpg.jpg) ;
+    min-width: fit-content;
+    min-height: 500px;
+    background-position: center;
+    background-size: contain;
+    padding: 25px;
+}
+.section h1, h3, p{
+    text-align: center;
+    font-weight: bold;
+
+}
+.section h1{
+    color:darkblue;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.section h3{
+    color: black;
+}.section p{
+    color: black;
+    font-style: italic;
+    font-family: cursive;
+}
+.formcontainer{
+    width: 100%;
+    background: rgb(143, 37, 37);
+    min-height: 50px;
+    margin: 0;
+    border-top: 5px darkblue solid;
+    border-bottom: 5px darkblue solid;
+}
+
+
+.formcontainer #subscription{
+    float: left;
+    margin: 0 10px 0 10px;
+}
+.formcontainer .input{
+    float: right;
+    margin-top: 10px;
+}
+
+.formcontainer div{
+    display:inline;
+    padding: 5px;
+    
+}
+.formcontainer input[type="text"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.formcontainer input[type="button"]{
+    background: darkblue;
+    color: white;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+}
+
+.content {
+
+}
+.article {
+    background: white;
+    border: solid blue 3px;
+    min-height: 600px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    
+}
+.article .art1{
+    width: 40%;
+    border-radius: 50px;
+    border:solid 5px black;
+    background: lightsteelblue;
+    padding: 10px;
+    float: left;
+}
+.article .art2{
+    width: 40%;
+    border-radius: 50px;
+    border:solid 5px black;
+    background: lightsteelblue;
+    padding: 10px;
+    float: right;
+}
+.article3 {
+    background: white;
+    border: solid blue 3px;
+    min-height: fit-content;
+    text-align: center;
+    margin: 0;
+   padding: 0;
+
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+
+.article3 .mainart{
+    background: lightsteelblue;
+    border-radius: 50px;
+    border:solid 5px black;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    float:left;
+    width: 40%;
+    height:fit-content;
+}
+.article3 .aside2{
+    background: lightsteelblue;
+    border-radius: 50px;
+    border:solid 5px black;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    float: right;
+    width: 30%;
+    height: fit-content;
+}
+.article2{
+    background: white;
+    border: solid blue 6px;
+    min-height: 600px;
+    text-align: left;
+    margin: 20px;
+}
+article .endnote{
+    background: lightsteelblue;
+    margin: 20px;
+    color: black;
+border-radius: 80px;
+border: solid 5px black;
+    padding: 10px;
+    text-align: right;
+}
+article .endnote h3{
+    font-size: 30px;
+    line-height: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.article2 .endnote p .simp{
+    color: blue;
+    font-size: 25px;
+    background: none;
+
+}
+#form2{
+    background: rgb(143, 37, 37);
+    margin: 20px;
+    border-radius: 80px;
+    border: solid 5px darkblue;
+    padding: 10px;
+    line-height: 1.8sem;
+    font-weight: bold;
+    text-align: center;
+}
+.display label{
+    margin: 0 25% 0 25%;
+    display: block;
+    text-align: left;
+    line-height: 1.8em;
+}
+.display input{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+}
+#registerhere{
+    font-family: cursive;
+    font-size: 30px;
+    line-height: 0;
+}
+.button2 input[type="submit"] {
+    background: darkblue;
+    height: 30px;
+    color:white;
+    margin: 10px;
+    padding: 5px 20px 20px 20px;
+    border-radius: 20px;
+    border:none;
+}
+
+
+footer {
+    background: black;
+    min-height: 50px;
+    color: antiquewhite;
+    padding: 5px;
+}
+footer p{
+    font-weight: lighter;
+   
+}
